@@ -13,7 +13,7 @@ router.delete("/:id", async (req, res) => {
 
 // update user
 router.patch("/:id", async (req, res) => {
-  if (req.body.userId === req.params.id) {
+  if (req.body.id === req.params.id) {
     //update password
     // if (req.body.password) {
     //   try {
